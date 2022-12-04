@@ -7,6 +7,7 @@ public class EmployeeTest {
         employee.setEmployeeName("Lee");
 
         System.out.println(employee.getEmployeeId());
+        System.out.println(Employee.getSerialNum()); //static은 class명으로 불러오는게 맞다.
 
         Employee employee1 = new Employee();
         employee1.setEmployeeName("Kim");
